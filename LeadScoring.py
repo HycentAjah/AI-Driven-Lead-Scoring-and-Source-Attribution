@@ -291,7 +291,7 @@ class LeadScoringDashboard:
         st.set_page_config(layout="wide", page_title="Lead Scoring and Attribution Dashboard")
         
         # Header
-        st.markdown("<h1 style='color: #008080;'>Lead Scoring & Attribution Dashboard</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='color: #008080;'>Lead Scoring and Attribution Dashboard</h1>", unsafe_allow_html=True)
         
         # KPI Overview
         self._section_header("Lead Scoring Overview")
