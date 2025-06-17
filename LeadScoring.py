@@ -288,10 +288,10 @@ class LeadScoringDashboard:
         st.markdown(f"<h2 style='color: #228B22; margin-top: 30px;'>{text}</h2>", unsafe_allow_html=True)
         
     def display(self):
-        st.set_page_config(layout="wide", page_title="Lead Scoring & Attribution Dashboard")
+        st.set_page_config(layout="wide", page_title="Lead Scoring and Attribution Dashboard")
         
         # Header
-        st.markdown("<h1 style='color: #008080;'>Lead Scoring Dashboard</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='color: #008080;'>Lead Scoring & Attribution Dashboard</h1>", unsafe_allow_html=True)
         
         # KPI Overview
         self._section_header("Lead Scoring Overview")
