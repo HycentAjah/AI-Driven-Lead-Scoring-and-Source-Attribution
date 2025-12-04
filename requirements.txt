@@ -5,3 +5,10 @@ faker
 plotly
 python-dateutil
 matplotlib
+streamlit
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
